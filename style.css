@@ -103,3 +103,54 @@ h2{
     background: white;
     color: black;
 }
+
+
+
+@media (max-width: 768px){
+
+    h3{
+        top:30px;
+        left:25px;
+        font-size:18px;
+    }
+
+    #sec{
+        top:70px;
+        left:25px;
+        font-size:3rem;
+    }
+
+    #third{
+        top:145px;
+        left:25px;
+        font-size:1rem;
+        width:85%;
+    }
+
+    .countdown{
+        top:280px;
+        left:25px;
+        gap:20px;
+    }
+
+    .time-box span{
+        font-size:3rem;
+    }
+
+    .time-box p{
+        font-size:0.9rem;
+        margin-top:-10px;
+    }
+
+    .social-icons{
+        top:480px;
+        left:25px;
+        gap:12px;
+    }
+
+    .social-icons a{
+        width:45px;
+        height:45px;
+        font-size:18px;
+    }
+}

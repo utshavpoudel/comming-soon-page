@@ -1,4 +1,4 @@
-const targetDate = new Date("June 28, 2026 00:00:00").getTime();
+const targetDate = new Date("July 5, 2026 00:00:00").getTime();
 
 function updateTimer() {
     const now = new Date().getTime();
@@ -35,3 +35,4 @@ function updateTimer() {
 
 updateTimer();
 const timer = setInterval(updateTimer, 1000);
+
